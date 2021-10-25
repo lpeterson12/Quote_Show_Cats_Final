@@ -1,0 +1,29 @@
+/* Stylesheet */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+
+body {  
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  /* Extend full height of browser  */
+  height: 100vh;
+  
+  /* Load Background Images with JS. Style with CSS */ 
+  background-size: cover;
+}
+
+/* Apply Font */
+main {
+  font-family: 'Zen Antique Soft';
+  font-size: 5vmin;
+  text-align: center;
+  
+  /* Add contrast to text */
+  background-color: rgba(219, 224, 224,.25);
+  box-shadow: 0px 0px 5px 5px rgba(5, 5, 5, 0.05);
+}
